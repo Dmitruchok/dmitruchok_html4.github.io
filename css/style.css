@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../img/background.png');
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-block {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #fff;
+}
+
+.contact {
+    width: 400px;
+    float: right;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;  
+}
+
+/*HEDER*/
+.tell {
+    line-height: 20px;
+    color: #30b4c8;;
+    margin: 43px 10px 0 244px;
+}
+
+.logo {
+    width: 600px;
+
+}
+ .logo img {
+    margin: 48px 10px 0 27px;
+ }
+
+.nav {
+    margin: 26px 0 0 22px;
+    list-style-type: none;
+}
+.nav li {
+    padding-left: 17px;
+    float: left;
+}
+
+.nav a {
+    display: block;
+    background-position: center top;
+    color: #30b4c8;
+    background-repeat: no-repeat;
+    width: 40px;
+    padding-top: 45px;
+}
+
+.nav .i_flag a {
+    background-image: url(../img/i_flag.png);
+}
+
+.nav .n_flag a {
+    background-image: url(../img/n_flag.png);
+
+}
+
+.nav .t_flag a {
+    background-image: url(../img/t_flag.png);
+
+}
+
+.nav .b_flag a {
+    background-image: url(../img/b_flag.png);
+
+}
+
+.nav .s_flag a {
+    background-image: url(../img/s_flag.png);
+
+}
+
+.nav .m_flag a {
+    background-image: url(../img/m_flag.png);
+
+}
+
+/*SECTION*/
+
+.nav-menu {
+    background-color: #303030;
+}
+
+.nav-menu li a:after {
+    color: #ffffff;
+    content: ' ▾';
+}
+ 
+.nav-menu li a:hover:after {
+    color: #444;
+    content: ' ▾';
+}
+ 
+.nav-menu li a:only-child:after {
+ content: '';
+}
+
+.menu {
+    margin-left: 15px;
+    display: block;
+    list-style-type: none;
+}
+
+.menu:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+.menu li {
+    padding: 0px 25px;
+    position: relative;
+    float: left;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #303030;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu  a {
+    display: block;
+    color: white;
+    background-color: #303030;;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+/*NEWS*/
+
+.section {
+    line-height: 27px;
+    color: #303030;
+    font-size: 13px;
+}
+
+.left-block {
+    border-right: 1px solid #575757;
+    text-align: center;
+    float: left;
+    width: 208px;
+}
+
+.center-block {
+    background: white;
+    width: 573px;
+    float: left;
+
+}
+
+.right-block {
+    background: #edeef0;
+    border-left: 1px solid #575757;
+    text-align: center;
+    width: 208px;
+    float: right;
+}
+
+/*FOOTER*/
+
+.footer {
+    text-align: center;
+    color: #fff;
+}
