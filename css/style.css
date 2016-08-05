@@ -69,18 +69,23 @@ body {
     font-weight: normal;
 }
 
-.nav-menu li a::after {
-    color: #fff;
-    content: ' ▾';
-}
-
-.nav-menu li a:hover::after {
-    color: #444;
-    content: ' ▾';
-}
-
-.nav-menu li a:only-child::after {
+.nav-menu a:after{
     content: ' ';
+    border: 4px solid transparent;
+    border-top: 4px solid white;
+    margin-left: 2px;
+    margin-bottom: 3px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.nav-menu a:hover::after {
+    content: '';
+    margin-bottom: 0;
+}
+
+.nav-menu a:only-child::after {
+    content: none;
 }
 
 .menu {
