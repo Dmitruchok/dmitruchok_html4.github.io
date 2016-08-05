@@ -43,7 +43,7 @@ body {
  }
 
 .nav {
-    margin: 29px 0 0 25px;
+    margin: 27px 0 0 25px;
     list-style-type: none;
 }
 .nav li {
@@ -59,36 +59,6 @@ body {
     color: #30b4c8;
     background-repeat: no-repeat;
     width: 40px;
-    padding-top: 46px;
-}
-
-.nav .i_flag a {
-    background-image: url(../img/i_flag.png);
-}
-
-.nav .n_flag a {
-    background-image: url(../img/n_flag.png);
-
-}
-
-.nav .t_flag a {
-    background-image: url(../img/t_flag.png);
-
-}
-
-.nav .b_flag a {
-    background-image: url(../img/b_flag.png);
-
-}
-
-.nav .s_flag a {
-    background-image: url(../img/s_flag.png);
-
-}
-
-.nav .m_flag a {
-    background-image: url(../img/m_flag.png);
-
 }
 
 /*SECTION*/
@@ -169,6 +139,25 @@ body {
     font-size: 14px;
 }
 
+.fon1{
+    float:left;
+    width:100%;
+    background:gray;
+}
+
+.fon2{
+    float:left;
+    width:100%;
+    background:white;
+}
+
+.fon3{
+    float:left;
+    width:100%;
+    background:gray;
+}
+
+
 .left-block {
     border-right: 1px solid #575757;
     text-align: center;
@@ -188,6 +177,7 @@ body {
     border-left: 1px solid #575757;
     text-align: center;
     width: 208px;
+
     float: right;
 }
 
