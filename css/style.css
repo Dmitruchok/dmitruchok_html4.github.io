@@ -16,6 +16,8 @@ body {
     background-color: #fff;
 }
 
+/*HEDER*/
+
 .contact {
     width: 400px;
     float: right;
@@ -27,21 +29,11 @@ body {
     content: ' ';
 }
 
-/*HEDER*/
-
 .tell {
     margin: 49px 10px 0 244px;
     color: #30b4c8;
     line-height: 18px;
 }
-
-.logo {
-    width: 600px;
-}
-
-.logo img {
-    margin: 49px 10px 0 29px;
- }
 
 .nav {
     margin: 31px 0 10px 26px;
@@ -62,7 +54,15 @@ body {
     text-align: center;
 }
 
-/*SECTION*/
+.logo {
+    width: 600px;
+}
+
+.logo img {
+    margin: 49px 10px 0 29px;
+ }
+
+/*SIDEBAR*/
 
 .nav-menu {
     background-color: #303030;
@@ -138,7 +138,8 @@ body {
 .menu li:hover .submenu {
     display: block;
 }
-/*NEWS*/
+
+/*SECTION*/
 
 .section {
     display: flex;
