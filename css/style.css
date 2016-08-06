@@ -36,12 +36,14 @@ body {
 }
 
 .nav {
-    margin: 25px 0 12px 26px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 27px;
     list-style-type: none;
 }
 
 .nav li {
-    padding-left: 16px;
+    margin-left: 13px;
     float: left;
     font-size: 9px;
 
@@ -49,9 +51,13 @@ body {
 
 .nav a {
     display: block;
-    width: 40px;
+    width: 43px;
     color: #30b4c8;
     text-align: center;
+}
+
+.s_flag p {
+    width: 52px;
 }
 
 .logo {
@@ -69,19 +75,19 @@ body {
     font-weight: normal;
 }
 
-.nav-menu a:after{
-    content: ' ';
-    border: 4px solid transparent;
-    border-top: 4px solid white;
-    margin-left: 2px;
-    margin-bottom: 3px;
+.nav-menu a::after {
     display: inline-block;
+    margin-bottom: 3px;
+    margin-left: 2px;
+    border: 4px solid transparent;
+    border-top: 4px solid #fff;
+    content: ' ';
     vertical-align: bottom;
 }
 
 .nav-menu a:hover::after {
-    content: '';
     margin-bottom: 0;
+    content: '';
 }
 
 .nav-menu a:only-child::after {
@@ -113,10 +119,6 @@ body {
     padding: 8px;
     color: #fff;
     text-decoration: none;
-}
-
-.nav p {
-    width: 52px;
 }
 
 .submenu {
