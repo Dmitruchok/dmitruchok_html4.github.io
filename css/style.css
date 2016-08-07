@@ -180,7 +180,7 @@ float: left;
 .right {
     order: 3;
     width: 261px;
-    padding-top: 7px;
+    padding-top: 10px;
     border-left: 1px solid rgba(158, 158, 158, .78);
     background: #edeef0;
 }
