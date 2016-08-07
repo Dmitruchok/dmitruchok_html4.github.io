@@ -66,6 +66,10 @@ body {
 
 /*SIDEBAR*/
 
+.banner img {
+    vertical-align: middle;
+}
+
 .nav-menu {
     background-color: #303030;
     font-weight: normal;
