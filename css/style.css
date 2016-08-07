@@ -4,7 +4,7 @@
     padding: 0;
 }
 body {
-    background: url('../img/background.png');
+    background: url('../img/fon.png');
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -123,6 +123,7 @@ body {
 
 .submenu li {
     display: block;
+    padding: 0;
 }
 
 .submenu  a {
