@@ -112,12 +112,13 @@ float: left;
 .menu li {
     position: relative;
     padding-right: 43px;
+    padding-left: 10px;
     float: left;
 }
 
 .menu a {
     display: block;
-    padding: 7px 0px 3px 7px;
+    padding: 8px 0px 0px 14px;
     color: #fff;
     text-decoration: none;
 }
@@ -168,7 +169,7 @@ float: left;
 }
 
 .left h3 {
-    padding-right: 4px;
+    padding-right: 10px;
 }
 
 .center {
