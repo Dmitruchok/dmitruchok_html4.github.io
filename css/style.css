@@ -4,7 +4,7 @@
     padding: 0;
 }
 body {
-    background: url('../img/fon.png');
+    background: url('../img/bg.jpg') repeat-x;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -13,10 +13,13 @@ body {
 .main-block {
     width: 1000px;
     margin: 0 auto;
-    background-color: #fff;
 }
 
 /*HEDER*/
+
+.header {
+    background-color: #fff;
+}
 
 .contact {
     width: 400px;
