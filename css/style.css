@@ -111,13 +111,13 @@ float: left;
 
 .menu li {
     position: relative;
-    padding: 0 21px 0 25px;
+    padding-right: 43px;
     float: left;
 }
 
 .menu a {
     display: block;
-    padding: 8px;
+    padding: 7px 0px 3px 7px;
     color: #fff;
     text-decoration: none;
 }
@@ -130,7 +130,7 @@ float: left;
 
 .submenu li {
     display: block;
-    padding: 0;
+    padding: 0 5px;
 }
 
 .submenu  a {
@@ -153,12 +153,11 @@ float: left;
 .section {
     display: flex;
     width: auto;
-    padding-bottom: 7px;
     background: #edeef0;
     color: #424c43;
     font-size: 14px;
     font-weight: normal;
-    line-height: 26px;
+    line-height: 24px;
     text-align: center;
 }
 
@@ -166,7 +165,6 @@ float: left;
     width: 265px;
     padding-top: 5px;
     border-right: 1px solid rgba(158, 158, 158, .78);
-    line-height: 25px;
 }
 
 .left h3 {
@@ -185,7 +183,6 @@ float: left;
     padding-top: 7px;
     border-left: 1px solid rgba(158, 158, 158, .78);
     background: #edeef0;
-    line-height: 25px;
 }
 
 .right h3 {
@@ -195,6 +192,7 @@ float: left;
 /*FOOTER*/
 
 .footer {
+    margin-top: 20px;
     color: #fff;
     text-align: center;
 }
