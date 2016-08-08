@@ -33,15 +33,15 @@ body {
 }
 
 .tell {
-    margin: 18px 10px 0 244px;
+    margin: 10px 10px 0 245px;
     color: #30b4c8;
     line-height: 18px;
 
 }
 
 .nav {
-    margin-top: 22px;
-    margin-left: 30px;
+    margin-top: 30px;
+    margin-left: 32px;
     list-style-type: none;
 }
 
@@ -67,7 +67,8 @@ float: left;
 }
 
 .logo img {
-    margin: 14px 10px 0 29px;
+    vertical-align: middle;
+    margin: 18px 10px 0 29px;
  }
 
 /*SIDEBAR*/
@@ -85,7 +86,7 @@ float: left;
 
 .nav-menu a::after {
     display: inline-block;
-    margin-bottom: 3px;
+    margin-bottom: 7px;
     margin-left: 7px;
     border: 3px solid transparent;
     border-top: 5px solid #fff;
@@ -112,15 +113,54 @@ float: left;
 
 .menu li {
     position: relative;
-    padding: 1px 42px 3px 8px;
     float: left;
+}
+
+.gl {
+    padding: 3px 56px 3px 68px;
+}
+
+.tr {
+    padding: 3px 44px 3px 0;
+}
+
+.tr a {
+    margin: 1px 0 0 10px;
+}
+
+.ser {
+    padding: 3px 30px 3px 0;
+}
+
+.ser a {
+    margin-left: 9px;
+}
+
+.par {
+    padding: 3px 34px 3px 19px;
+}
+
+.par a {
+    margin-left: 14px;
+}
+
+.rev {
+    padding: 3px 30px 3px 20px;
+}
+
+.us {
+    padding: 3px 30px 3px 44px;
+}
+
+.con {
+    padding: 3px 30px 3px 34px;
 }
 
 .menu a {
     display: block;
     color: #fff;
     text-decoration: none;
-    line-height: 26px;
+    line-height: 25px;
 }
 
 .submenu {
@@ -131,8 +171,6 @@ float: left;
 
 .submenu li {
     display: block;
-    margin-left: 15px;
-    padding: 0 5px;
 }
 
 .submenu  a {
@@ -165,7 +203,7 @@ float: left;
 
 .left {
     width: 265px;
-    padding-top: 8px;
+    padding-top: 6px;
     border-right: 1px solid rgba(158, 158, 158, .78);
 }
 
@@ -182,7 +220,7 @@ float: left;
 .right {
     order: 3;
     width: 261px;
-    padding-top: 5px;
+    padding-top: 6px;
     padding-bottom: 10px;
     border-left: 1px solid rgba(158, 158, 158, .78);
     background: #edeef0;
