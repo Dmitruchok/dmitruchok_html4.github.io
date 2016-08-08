@@ -78,7 +78,6 @@ float: left;
 }
 
 .nav-menu {
-    box-shadow: 0 4px 6px #323232;
     position: relative;
     background-color: #303030;
     font-weight: normal;
@@ -235,5 +234,6 @@ float: left;
 .footer {
     margin: 10px 0;
     color: #fff;
+    font-weight: normal;
     text-align: center;
 }
