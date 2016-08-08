@@ -111,7 +111,7 @@ float: left;
 
 .menu li {
     position: relative;
-    padding: 3px 53px 7px 7px;
+    padding: 1px 53px 3px 7px;
     float: left;
 }
 
@@ -163,7 +163,7 @@ float: left;
 
 .left {
     width: 265px;
-    padding-top: 5px;
+    padding-top: 8px;
     border-right: 1px solid rgba(158, 158, 158, .78);
 }
 
@@ -181,6 +181,7 @@ float: left;
     order: 3;
     width: 261px;
     padding-top: 5px;
+    padding-bottom: 10px;
     border-left: 1px solid rgba(158, 158, 158, .78);
     background: #edeef0;
 }
