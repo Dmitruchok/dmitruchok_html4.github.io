@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background: url('../img/bg.jpg') repeat-x;
     font-family: 'Open Sans', Arial, sans-serif;
@@ -59,7 +60,7 @@ body {
 }
 
 .logo {
-float: left;
+    float: left;
 }
 
 .logo a {
@@ -67,8 +68,8 @@ float: left;
 }
 
 .logo img {
-    vertical-align: middle;
     margin: 18px 10px 0 29px;
+    vertical-align: middle;
  }
 
 /*SIDEBAR*/
@@ -158,8 +159,8 @@ float: left;
 .menu a {
     display: block;
     color: #fff;
-    text-decoration: none;
     line-height: 25px;
+    text-decoration: none;
 }
 
 .submenu {
